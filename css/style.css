@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+    padding: 0;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+	/*border: 1px solid;*/
+
+
+}
+.container {
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 10%;
+    /*border:1px solid;*/ 
+    margin-top: 5px;  
+
+}
+.logo a img{
+    width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 50%;
+   /*border:1px solid;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{ 
+	list-style: none;
+    float: left; 
+ }
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 15px;
+	display: inline-block;
+	font size: 18px;
+	color: #0F2656;
+    text-transform: capitalize; 
+}
+.menu ul li a:hover {
+		color: #008AFF;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.container2{
+	width: 60%;
+	/*border: 1px solid red;*/
+	margin: 60px auto auto;
+}
+.b-text{
+	text-align: center;
+	
+}
+.b-text h1{
+	    font-size: 50px;
+        padding: 0px 75px;
+        color:#0F2656;
+        letter-spacing: 0px;
+        line-height: 65px;
+        word-spacing: 2px;
+
+}
+.b-text h1 span {
+	color: #0088FF;
+
+}
+.b-text p{
+	color:#434781; 
+	font-size: 20px;
+	padding: 0 60px;
+}
+.b-img{
+	width: 75%;
+	/*border: 1px solid;*/
+	margin: 30px 200px auto
+
+}
+.b-img img{
+	width: 100%;
+	
+}
+/*banner end*/
+/*success start*/
+.success{
+	padding: 50px 0;
+	border: 1px solid;
+
+}
+.s-content{
+
+}
+.s-left{
+	width: 45%;
+	float: left;
+	border: 1px solid;
+}
+.s-left h2{}
+.s-left p{}
+
+.s-righst{
+	width: 45%;
+	float: right;
+	border: 1px solid;
+}
+	.s-righst h1{} 
+
+
+/*success end*/
+/*service start*/
+.service{
+	padding: 50px 0;
+}
+.wrapper{
+
+}
+.s-single{
+	width: 26%;
+	border: 1px solid red;
+	padding: 50px 30px;
+	background-color: #FDEBED;
+}
+.s-img{
+	/*border: 1px solid;*/
+}
+.s-img img{}
+.s-text{
+	border: 1px solid;
+}
+.s-text h2{}
+.s-text p{}
+/*service end*/
+
+
+
+
+.box{
+	width: 220px;
+	height: 180px;
+	background: linear-gradient(to bottom,
+		rgba(238, 50, 28, 1) 0%,
+		rgba(238, 50, 28, 1) 20%,
+		rgba(0, 250, 0, 1) 20%,
+        rgba(0, 50, 28, 1) 50%,
+        rgba(0, 0, 128, 1) 50%,
+        rgba(0, 0, 128, 1) 100%);
+}
